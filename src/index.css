@@ -1,0 +1,45 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"); */
+body {
+  margin: 0;
+  font-family: "segoe-vf", sans-serif !important;
+  /* font-family: "", sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35)); */
+}
+
+@font-face {
+  font-family: segoe-vf;
+  font-weight: 100;
+  src: url(https://edgestatic.azureedge.net/shared/edgeweb/fonts/segoeui-vf-display-light.e452665.woff2)format("woff2"),
+    url(https://edgestatic.azureedge.net/shared/edgeweb/fonts/segoeui-vf-display-light.68c90c4.woff)format("woff"),
+    url(https://edgestatic.azureedge.net/shared/edgeweb/fonts/segoeui-vf-display-light.9d3d90d.ttf)format("truetype");
+}
+@font-face {
+  font-family: segoe-vf;
+  font-weight: 300;
+  src: url(https://edgestatic.azureedge.net/shared/edgeweb/fonts/segoeui-vf-display-semilight.1338e9a.woff2)format("woff2"),
+    url(https://edgestatic.azureedge.net/shared/edgeweb/fonts/segoeui-vf-display-semilight.9c37400.woff)format("woff"),
+    url(https://edgestatic.azureedge.net/shared/edgeweb/fonts/segoeui-vf-display-semilight.f65cf1c.ttf)format("truetype");
+}
+@font-face {
+  font-family: segoe-vf;
+  font-weight: 400;
+  src: url(https://edgestatic.azureedge.net/shared/edgeweb/fonts/segoeui-vf-display.e85854a.woff2)format("woff2"),
+    url(https://edgestatic.azureedge.net/shared/edgeweb/fonts/segoeui-vf-display.f8bb08f.woff)format("woff"),
+    url(https://edgestatic.azureedge.net/shared/edgeweb/fonts/segoeui-vf-display.dc5de3f.ttf)format("truetype");
+}
+@font-face {
+  font-family: segoe-vf;
+  font-weight: 600;
+  src: url(https://edgestatic.azureedge.net/shared/edgeweb/fonts/segoeui-vf-display-semibold.1977a17.woff2)format("woff2"),
+    url(https://edgestatic.azureedge.net/shared/edgeweb/fonts/segoeui-vf-display-semibold.3326bd2.woff)format("woff"),
+    url(https://edgestatic.azureedge.net/shared/edgeweb/fonts/segoeui-vf-display-semibold.0f5cc00.ttf)format("truetype");
+}
+@font-face {
+  font-family: segoe-vf;
+  font-weight: 700;
+  src: url(https://edgestatic.azureedge.net/shared/edgeweb/fonts/segoeui-vf-display-bold.2756fcb.woff2)format("woff2"),
+    url(https://edgestatic.azureedge.net/shared/edgeweb/fonts/segoeui-vf-display-bold.65cd9e3.woff)format("woff"),
+    url(https://edgestatic.azureedge.net/shared/edgeweb/fonts/segoeui-vf-display-bold.4f8bd09.ttf)format("truetype");
+}
