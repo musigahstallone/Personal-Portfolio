@@ -33,7 +33,7 @@ export default Projects;
 //               isBlog={false}
 //               title="EyeSpeeD"
 //               description=" Real-Time Vehicle Speed Estimation System that utilizes Object Detection and Tracking."
-//               ghLink="https://github.com/musigahstallone/Need4Speed.git"
+//               ghLink="https://github.com/Need4Speed.git"
 //               // demoLink=""
 //             />
 //           </Col>
@@ -85,7 +85,7 @@ export default Projects;
 //               isBlog={false}
 //               title="RemeD Mobile"
 //               description="This is a mobile application built with react native whose main objective is was to create a platform for patience to have doctor's consultation virtually during the COVID Pandemic. It mainly focuses on patients with chronic diseases"
-//               ghLink="https://github.com/musigahstallone/remed_mobile.git"
+//               ghLink="https://github.com/remed_mobile.git"
 //               // demoLink=""
 //             />
 //           </Col>
@@ -96,7 +96,7 @@ export default Projects;
 //               isBlog={false}
 //               title="FooD App"
 //               description="This is a mobile app built using react native,expo and firebase as the database. I took inspiration from the uber eats app. It showcases my front-end development skills."
-//               ghLink="https://github.com/musigahstallone/FOODAPP.git"
+//               ghLink="https://github.com/FOODAPP.git"
 //             />
 //           </Col>
 
@@ -106,6 +106,6 @@ export default Projects;
 //               isBlog={false}
 //               title="An ML Workflow on AWS SageMaker"
 //               description="This project  utilizes the AWS services to train a model, deploy a model, and also AWS Lambda Functions, Step Functions to compose your model and services into an event-driven application"
-//               ghLink="https://github.com/musigahstallone/Image-Classification-model.git"
+//               ghLink="https://github.com/Image-Classification-model.git"
 //             />
 //           </Col>

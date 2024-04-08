@@ -93,7 +93,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/musigahstallone"
+                href="https://github.com"
                 target="_blank"
                 className="fork-btn-inner" >
                 <SiGithub style={{ fontSize: "1.2em" }} />{" "}
