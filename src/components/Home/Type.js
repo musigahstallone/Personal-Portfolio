@@ -8,9 +8,8 @@ function Type() {
         strings: [
           "Full-Stack Developer",
           ".NET C# Enthusiast",
-          "AI and Machine Learning Lover 📊",
-          "AWS AI and Machine Learning scholar 22' and 23'",
-          
+          "AI and Machine Learning Lover",
+          // "AI and Machine Learning Lover 📊",
         ],
         autoStart: true,
         loop: true,

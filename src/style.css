@@ -1,20 +1,13 @@
 html {
-  --section-background-color: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
-  );
-
-  --image-gradient: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
-  );
-
-  --imp-text-color: #c770f0;
+  --section-background-color: #212121;
+  --image-gradient: #212121;
+  --imp-text-color: #0097b2;
+  /* --imp-text-color: #46e2e2; */
+  /* --imp-text-color: #d78f34; */
+  --nice-color: #696969;
 }
 
-.purple {
+.cyan-color {
   color: var(--imp-text-color) !important;
 }
 
@@ -57,18 +50,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: black;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
-  border-radius: 12px;
+  background: rgba(43, 40, 62, 0.959);
+  border-radius: 20px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: rgba(56, 53, 57, 0.911);
   border-radius: 12px;
 }
 
@@ -89,6 +82,11 @@ button:focus {
   font-size: 1.2rem !important;
 }
 
+.logo-name{
+  font-weight: 800;
+  /* font-size: 10px; */
+}
+
 .navbar-toggler {
   position: relative !important;
   background-color: transparent !important;
@@ -97,7 +95,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: var(--imp-text-color) !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -105,6 +103,7 @@ button:focus {
   transform: rotate(0deg) !important;
   left: 0 !important;
   opacity: 1 !important;
+  border-radius: 50px;
 }
 
 .navbar-toggler:focus,
@@ -142,9 +141,10 @@ button:focus {
 
 @media (max-width: 767px) {
   .navbar {
+    border-bottom: gray;
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: transparent !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -155,8 +155,9 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
+  height: 70% !important;
   width: 2.5em !important;
+  border-radius: 5px;
 }
 
 .navbar-nav .nav-link {
@@ -181,7 +182,7 @@ button:focus {
 }
 
 .navbar-nav .nav-item a {
-  font-weight: 400;
+  /* font-weight: 400; */
   transition: all 0.3s ease-out 0s;
   position: relative;
   z-index: 1;
@@ -194,7 +195,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: var(--imp-text-color);
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -257,7 +258,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -280,28 +281,37 @@ button:focus {
   padding-left: 45px !important;
 }
 
+.home-pic{
+  border-radius: 100%;
+  justify-content: center !important;
+}
+
 .main-name {
-  color: #cd5ff8;
+  color: #46e2e2;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
-  font-weight: 600 !important;
+  color: #46e2e2 !important;
+  /* font-weight: 600 !important; */
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #46e2e2 !important;
 }
 
 @media (max-width: 767px) {
   .Typewriter__wrapper {
     font-size: 1.4em !important;
-    font-weight: 500 !important;
+    /* font-weight: 500 !important; */
     position: absolute !important;
   }
   .Typewriter__cursor {
     display: none !important;
+  }
+  .home-pic {
+    padding: 2em !important;
+
   }
 }
 
@@ -320,7 +330,7 @@ button:focus {
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  /* padding-top: 70px !important; */
 }
 
 .home-about-description {
@@ -358,7 +368,7 @@ button:focus {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  background: rgba(255, 255, 255, 0.972) !important;
+  background: black !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
@@ -371,7 +381,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: var(--imp-text-color);
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -379,13 +389,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px var(--imp-text-color);
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: var(--imp-text-color);
+  box-shadow: 0 0 5px var(--imp-text-color);
+  text-shadow: 0 0 2px var(--imp-text-color);
 }
 
 .social-icons {
@@ -395,7 +405,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: var(--imp-text-color) !important;
 }
 
 /* --------- */
@@ -439,7 +449,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: var(--nice-color) !important;
 }
 /* --------- */
 /* Projects */
@@ -518,7 +528,7 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
+  background-color: var(--imp-text-color) !important;
   border-color: #623686 !important;
 }
 
@@ -534,7 +544,7 @@ button:focus {
 .project-heading {
   color: white !important;
   font-size: 2.3em !important;
-  font-weight: 500 !important;
+  /* font-weight: 500 !important; */
   padding-top: 10px !important;
 }
 
@@ -555,12 +565,12 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid #212121 !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 15px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 4px 5px 4px 3px #212121 !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -574,8 +584,9 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid var(--nice-color) !important;
 }
+
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;
@@ -585,6 +596,13 @@ button:focus {
   border: none !important;
   color: white !important;
   background-color: transparent !important;
+}
+
+.my-activities{
+  border: #212121 solid  1px;
+  border-radius: 20px ;
+  padding: 15px;
+  opacity: 0.9;
 }
 
 .about-activity {
@@ -637,7 +655,7 @@ button:focus {
 }
 .resume .resume-title {
   font-size: 2em;
-  font-weight: 700;
+  /* font-weight: 700; */
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -645,7 +663,7 @@ button:focus {
 .resume .resume-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
-  border-left: 2px solid #8a49a8;
+  border-left: 2px solid #46e2e2;
   position: relative;
 }
 
@@ -655,7 +673,7 @@ button:focus {
   background: #5234795d;
   padding: 8px 15px;
   display: inline-block;
-  font-weight: 600;
+  /* font-weight: 600; */
   margin-bottom: 10px;
 }
 
@@ -682,7 +700,7 @@ button:focus {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #8a49a8;
+  border: 2px solid #46e2e2;
 }
 
 .like-item {
