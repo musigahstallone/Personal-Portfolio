@@ -67,19 +67,19 @@ function NavBar() {
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
-
-            // <Nav.Item>
-            //   <Nav.Link
-            //     as={Link}
-            //     to="/project"
-            //     onClick={() => updateExpanded(false)}
-            //   >
-            //     <AiOutlineFundProjectionScreen
-            //       style={{ marginBottom: "2px" }}
-            //     />{" "}
-            //     Projects
-            //   </Nav.Link>
-            // </Nav.Item>
+{/* 
+             <Nav.Item>
+               <Nav.Link
+                 as={Link}
+                 to="/project"
+                 onClick={() => updateExpanded(false)}
+              >
+                 <AiOutlineFundProjectionScreen
+                   style={{ marginBottom: "2px" }}
+                 />{" "}
+                 Projects
+               </Nav.Link>
+             </Nav.Item> */}
 
             {/* <Nav.Item>
               <Nav.Link
@@ -89,16 +89,16 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
-            // <Nav.Item className="fork-btn">
-            //   <Button
-            //     href="https://github.com"
-            //     target="_blank"
-            //     className="fork-btn-inner" >
-            //     <SiGithub style={{ fontSize: "1.2em" }} />{" "}
-            //   </Button>
-            // </Nav.Item>
+            <Nav.Item className="fork-btn">
+              <Button
+                href="https://github.com"
+                target="_blank"
+                className="fork-btn-inner" >
+                <SiGithub style={{ fontSize: "1.2em" }} />{" "}
+              </Button>
+            </Nav.Item> */}
 
           </Nav>
         </Navbar.Collapse>
