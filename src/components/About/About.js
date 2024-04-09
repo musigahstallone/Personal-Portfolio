@@ -17,12 +17,12 @@ function About() {
             md={7}
             style={{
               justifyContent: "center",
-              paddingTop: "30px",
+              paddingTop: "0px",
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know me <strong className="cyan-color"></strong>
+            <h1 style={{ fontSize: "3.1em", paddingBottom: "20px" }}>
+              <strong className="cyan-color"> Know me</strong>
             </h1>
             <Aboutcard />
           </Col>
